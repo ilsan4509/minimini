@@ -32,5 +32,6 @@ class Account(
             this.roles.stream().map { role -> SimpleGrantedAuthority("ROLE_$role") }.collect(Collectors.toSet())
         )
     }
+    //테스트 성곤
 }
 
